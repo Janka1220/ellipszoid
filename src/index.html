@@ -1,0 +1,61 @@
+<!--
+File: about.html
+Author: Havel Janka
+Copyright: 2024, Havel Janka
+Group: Szoft I/1/N
+Date: 2024-03-12
+Github: https://github.com/Janka1220/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <header>
+                    <h1>Ellipszoid</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <main>
+                    <h2>Ellipszoid terület számítás</h2>
+                    <div class="triangleform">
+                        <div class="input">
+                            <label for="a" class="form-label">"a" tengely</label>
+                            <input type="text" id="a" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="b" class="form-label">"b" tengely</label>
+                            <input type="text" id="b" required class="form-control">
+                        </div>
+                        <div class="input">
+                            <label for="c" class="form-label">"c" tengely</label>
+                            <input type="text" id="c" required class="form-control">
+                        </div>
+                        <div>
+                            <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
+                    
+                        </div>
+                        <div class="input">
+                            <label for="area" class="form-label">Térfogat</label>
+                            <input type="text" id="area" readonly class="form-control mb-5">
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
